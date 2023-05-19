@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <link href = "index.css" rel = "stylesheet" type = "text/css">
+    <title>Cinnaball</title>
+    <link rel = "icon" href = "brand.png"
+    type = "image/x-icon">
+    <script src = "index.js"></script>
+  </head>
+  <body>
+    <audio loop autoplay>
+      <source src = "01.mp3" type = "audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <div class = "ball">
+      <div class = "whitesurface">
+        <p id = "response">8</p>
+      </div>
+    </div>
+    <div class = "inputfield">
+      <input type = "text" placeholder = "Ask me a question..." id = "clear">
+      <button id = "askme" onclick="myFunction()">Shake!</button>
+    </div>
+  </body>
+</html>
